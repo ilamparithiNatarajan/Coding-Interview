@@ -14,11 +14,11 @@ public class SymmetricPointOfString {
         }
         int begin = 0, mid = len / 2, end = len - 1;
         while (begin < mid) {
-            if(S.charAt(begin) != S.charAt(end)) {
+            if (S.charAt(begin) != S.charAt(end)) {
                 return -1;
             }
-            begin ++;
-            end --;
+            begin++;
+            end--;
 
         }
         return mid;
